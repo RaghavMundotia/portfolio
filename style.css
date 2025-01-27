@@ -1,0 +1,303 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+.name{
+  padding-top: 290px;
+  padding-bottom: 290px;
+}
+
+
+.top-container,
+.middle-container {
+  width: 100%;
+  text-align: center;
+}
+
+.top-container {
+  background: rgb(31,49,43);
+background: linear-gradient(90deg, rgba(31,49,43,1) 0%, rgba(0,255,166,1) 50%, rgba(31,49,43,1) 100%);
+}
+
+.top-container h1 {
+  font-size: 6rem;
+  font-family: "Jersey 15", sans-serif;;
+}
+
+.top-container p {
+  font-size: 1.8rem;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile {
+  text-align: center;
+  margin: 100px auto;
+  max-width: 80%;
+}
+
+.profile h1 {
+  margin-top: 20px;
+  color: rgb(31, 171, 137);
+  font-family: "Jersey 15", sans-serif;
+}
+
+.about {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+button {
+  width: 140px;
+  height: 50px;
+  background-color: #62d2a2;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Jersey 15", sans-serif;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.temp {
+  margin: 80px 0;
+}
+
+.container3 {
+  text-align: center;
+  font-family: "Jersey 15", sans-serif;
+  color: rgb(31, 171, 137);
+  padding: 0 20px;
+}
+
+.myskills {
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.one,
+.two,.three {
+  flex: 1 1 400px;
+  text-align: center;
+  max-width: 500px;
+}
+
+.one img,
+.two img,
+.three img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bottom-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.bottom-container h1 {
+  font-size: 2.5rem;
+}
+
+.get-in-touch p {
+  font-size: 1.2rem;
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.footer {
+  background-color: #9df3c4;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.footer p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  color: black;
+  margin: 10px;
+}
+
+button:hover{
+  filter: drop-shadow(0 0 10px #00ffaa);
+}
+
+
+
+top-container p, .middle-container p, .bottom-container p{
+  color: black;
+}
+
+.one p{
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.two p{
+  color:black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.three p{
+  color:black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+.one{
+  /* border: 5px solid black; */
+  border-radius: 5%;
+  padding: 30px;
+  
+  /* border: 20px; */
+}
+
+
+
+
+.two{
+  /* border: 5px solid black; */
+  border-radius: 5%;
+  padding: 30px;
+  /* border: 20px; */
+}
+
+
+.three{
+  /* border: 5px solid black; */
+  border-radius: 5%;
+  padding: 30px;
+  /* border: 20px; */
+}
+
+
+@media screen and (max-width: 768px) {
+  .top-container h1 {
+    font-size: 3.5rem;
+  }
+
+  .top-container p {
+    font-size: 1.5rem;
+  }
+
+  .about {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .profile {
+    max-width: 90%;
+  }
+
+  button {
+    width: 120px;
+    height: 45px;
+    font-size: 1rem;
+  }
+
+  .myskills {
+    font-size: 2rem;
+  }
+
+  .get-in-touch p {
+    font-size: 1rem;
+  }
+
+  .footer p {
+    font-size: 1.2rem;
+  }
+
+  .social-icons a {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  .top-container {
+    padding: 100px 10px;
+  }
+
+  .top-container h1 {
+    font-size: 2.8rem;
+  }
+
+  .top-container p {
+    font-size: 1.2rem;
+  }
+
+  .profile img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  .myskills {
+    font-size: 1.8rem;
+  }
+
+  .one,
+  .two,
+  .three {
+    flex: 1 1 90%;
+    max-width: 90%;
+  }
+
+  .get-in-touch p {
+    font-size: 0.9rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+  }
+
+  .social-icons a {
+    font-size: 1.2rem;
+  }
+}
